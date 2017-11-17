@@ -1,0 +1,335 @@
+
+/*===================================================================*/
+/* COLUMN SIZES & STYLES 
+/*===================================================================*/
+
+.trend-one-half 	{ width: 48.75%; }
+.trend-one-third 	{ width: 31.66%; }
+.trend-two-third 	{ width: 65.83%; }
+.trend-one-fourth 	{ width: 23.12%; }
+.trend-three-fourth { width: 74.37%; }
+.trend-one-fifth 	{ width: 18%; }
+.trend-two-fifth 	{ width: 38.5%; }
+.trend-three-fifth 	{ width: 59%; }
+.trend-four-fifth 	{ width: 79.5%; }
+.trend-one-sixth 	{ width: 14.58%; }
+.trend-five-sixth 	{ width: 82.91%; }
+
+.trend-one-half,
+.trend-one-third,
+.trend-two-third,
+.trend-three-fourth,
+.trend-one-fourth,
+.trend-one-fifth,
+.trend-two-fifth,
+.trend-three-fifth,
+.trend-four-fifth,
+.trend-one-sixth,
+.trend-five-sixth {
+	float: left;
+	position: relative;
+	margin-right: 2.5%;
+	margin-bottom: 40px;
+}
+.trend-column-last {
+	clear: right;
+	margin-right: 0!important;
+}
+
+.trend-one-half h6,
+.trend-one-third h6,
+.trend-two-third h6,
+.trend-three-fourth h6,
+.trend-one-fourth h6,
+.trend-one-fifth h6,
+.trend-two-fifth h6,
+.trend-three-fifth h6,
+.trend-four-fifth h6,
+.trend-one-sixth h6,
+.trend-five-sixth h6 {
+	margin-bottom: 8px;
+}
+
+
+/*===================================================================*/
+/* BUTTON STYLES 
+/*===================================================================*/
+
+.trend-button {
+	font-size: 14px !important;
+	line-height: 16px;
+	padding: 12px 14px 13px 14px !important;
+
+	border-radius: 4px!important;
+	color: #FFF!important;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0px 5px 5px 0;  
+	text-align: center!important;
+	text-decoration: none!important;
+	-webkit-appearance: none;
+}
+.trend-button,
+.trend-button:hover
+{
+	border-bottom: 0;
+}
+.trend-button.small {
+}
+.trend-button.medium {
+	font-size: 15px!important;
+	font-weight: bold;
+	padding: 15px 20px!important;
+}
+.trend-button.large {
+	font-size: 16px!important;
+	font-weight: bolder;
+	padding: 20px 30px!important;
+}	
+
+.trend-button.round {
+	border-radius: 200px!important;
+}
+
+.trend-button:active {
+	position: relative!important;
+	top: 1px!important;
+}
+
+
+/* BUTTON COLORS */
+ .trend-button.black { background: #262626; }
+.trend-button.black:hover { background-color: #3C3C3C; }	 
+
+.trend-button.grey { background: #aab2bd; }
+.trend-button.grey:hover { background: #b6bec9; }
+
+.trend-button.green { background: #9fd468; }
+.trend-button.green:hover { background: #abe074; }
+
+.trend-button.blue { background: #4fc0ea; }
+.trend-button.blue:hover { background: #5ccdf5; }
+
+.trend-button.yellow { background: #ffce55; }
+.trend-button.yellow:hover { background: #fcd677; } 
+
+.trend-button.red { background: #ee5665; }
+.trend-button.red:hover { background: #f96072; }
+
+.trend-button.purple { background: #ac92eb; }
+.trend-button.purple:hover { background: #b89ef7; }
+
+
+/*===================================================================*/
+/* TOGGLES
+/*===================================================================*/
+
+.trend-toggle {
+	margin-bottom: 10px;
+}
+
+.trend-toggle-heading {
+	background: #FFF;
+	display: block;
+	cursor: pointer;
+	outline: none;
+	position: relative;
+}
+
+.trend-toggle-heading p {
+	margin: 0px!important;
+	padding: 0px;
+}
+
+.trend-toggle-title > a {
+	display: block;
+	text-decoration: none!important;
+
+	padding: 16px 16px 17px 16px !important; 
+	font-size: 15px;
+	font-weight: bold;
+	color: #262626 !important;
+	line-height: 14px;
+	border: 1px solid #d8d8d8;	
+}
+.trend-toggle-title > a:hover {
+	color: #ef6250 !important;
+}
+.trend-toggle-title > a:active {
+	top: 0!important;
+}
+
+.trend-toggle-content {
+	background-color: #FFF;
+	padding: 20px;
+	border: 1px solid #d8d8d8;
+	border-top: 0;	
+}
+
+.trend-toggle-content:before,
+.trend-toggle-content:after {
+	display: table;
+	content: " ";
+}
+
+.trend-toggle-content:after {
+	clear: both;
+}
+
+.collapse {
+	display: none;
+}
+
+.collapse.open {
+	display: block;
+}
+
+
+/*===================================================================*/
+/* TABS
+/*===================================================================*/
+
+.trend-tab-headings {
+	float: left;
+	margin: 10px 0 0 0!important;
+	width: 100%;
+	padding: 0 !important;
+	z-index: 400 !important;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.trend-tab-headings > li {
+	float: left;
+	list-style: none!important;
+	margin-bottom: 9px;
+	line-height: 26px !important;
+}
+
+.trend-tab-headings > li > a {
+	border-radius: 3px 3px 0 0;
+	margin-right: 5px;
+	padding: 13px 16px 14px 16px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #262626;
+}
+
+.trend-tab-headings > li.active > a,
+.trend-tab-headings > li.active > a:hover,
+.trend-tab-headings > li.active > a:focus {
+	background-color: #FFF;
+	cursor: default;
+	text-decoration: none;
+	border: 1px solid #d8d8d8;
+	border-bottom-color: transparent;
+	color: #ef6250 !important;	
+}
+
+.trend-tab-body {
+	padding: 17px 20px;
+	border: 1px solid #d8d8d8;
+	border-top: 0;
+	z-index: 300 !important;
+
+	float: left;
+	opacity: 0;
+	-webkit-transition: opacity 0.15s linear;
+	        transition: opacity 0.15s linear;
+}
+
+.trend-tab-body.open {
+	opacity: 1;
+}
+
+.trend-tab-contents {
+	color: #666;
+	background-color: #FFF;
+	float: left;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.trend-tab-contents > .trend-tab-body {
+	display: none;
+}
+
+.trend-tab-contents > .open {
+	display: block;
+}
+
+@media only screen 
+and (max-width : 400px) {
+
+	.trend-tab-headings > li {
+		margin-bottom: 0px;
+	}
+	
+	.trend-tab-headings > li > a {
+		margin-right: 1px;
+		padding: 7px 7px;
+	}
+	
+	.trend-tab-body {
+		padding: 7px;
+	}
+}
+
+
+	
+/*===================================================================*/
+/* HIGHLIGHT
+/*===================================================================*/
+
+span.highlight {
+	background-color: #FFF49B;
+	color: #666666;
+	padding: 0 5px;
+
+} 
+ 
+
+/*===================================================================*/
+/* ALERTS
+/*===================================================================*/
+
+.trend-alert {
+	background-color: #888;
+	border-radius: 2px;
+	color: #FFF;
+	margin: 0 0 30px 0;
+	position: relative;
+	line-height: 25px;
+
+	font-size: 14px;
+	padding: 14px;
+}
+
+.trend-alert.note 	{ background: #ffce55; color: #ffffff; }	
+.trend-alert.info 	{ background: #50c1e9; color: #ffffff; }
+.trend-alert.success { background: #9fd468; color: #ffffff; }	
+.trend-alert.error   { background: #ed5564; color: #ffffff; }	
+
+
+
+ 			  
+/*===================================================================*/
+/* MOBILE CSS
+/*===================================================================*/
+
+@media only screen 
+and (max-width: 767px) {
+	.trend-one-half,
+	.trend-one-third,
+	.trend-two-third,
+	.trend-three-fourth,
+	.trend-one-fourth,
+	.trend-one-fifth,
+	.trend-two-fifth,
+	.trend-three-fifth,
+	.trend-four-fifth,
+	.trend-one-sixth,
+	.trend-five-sixth {
+		margin-right: 0;
+		width: 100%;
+	}	
+}

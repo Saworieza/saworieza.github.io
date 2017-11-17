@@ -1,0 +1,110 @@
+/*=================================================================================*/
+/* Medium Resolution and Below
+/*=================================================================================*/
+
+
+/* Header */
+#site-header.row {
+	border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 80px;
+	margin: 80px 0 0 0;
+}
+
+/* Body */
+#site-body {
+	margin-top: 60px;
+}
+
+#tagline {
+	padding-bottom: 60px;
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 60px;
+	text-align: center;
+
+	padding-left: 60px;
+	padding-right: 60px;
+
+}
+#site-body #tagline h1 {
+	font-size: 38px;
+	line-height: 48px !important;
+	letter-spacing: -2px;
+}
+
+.page-header h2 {
+	font-size: 34px;
+}
+
+.sb-sidebar-toggle {
+    display: none;
+}
+
+#nav-handler {
+	text-align: right;
+}
+#nav-handler a {
+	background: #feea36;
+	color: #000;
+	padding: 7px 16px;
+	font-size: 26px;
+	border-bottom: 0;
+}
+#nav-handler a:hover {
+	background: #262626;
+	color: #fff;
+}
+
+/* Sidebar */
+#sidebar > div:first-of-type {
+	margin-top: 40px;
+	padding-top: 40px;
+	border-top: 1px solid #d8d8d8;
+}
+#sidebar > div:last-of-type {
+	margin-bottom: 0;
+}
+
+
+/* Portfolio */
+#portfolio-grid .portfolio .header {
+	padding: 28px;
+}
+.portfolio-nav {
+	margin-top: 20px;
+}
+
+#portfolio-grid .portfolio .thumbnail img,
+#portfolio-grid .portfolio .thumbnail .overlay
+{
+	height: auto;
+	line-height: auto;
+}
+
+#portfolio-media .portfolio-nav {
+	display: none;
+}
+
+.single-portfolio .desc h2 {
+	font-size: 28px;
+}
+
+
+/* Blog */
+#blog .post .title,
+.format-quote .content blockquote
+{
+	font-size: 30px;
+}
+
+
+/* Misc */
+#back-to-top {
+    display: none !important;
+}
+
+.social ul li {
+	margin-right: 10px;
+}
+.social ul li a {
+	font-size: 20px;
+}
