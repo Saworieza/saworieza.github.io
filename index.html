@@ -1,1026 +1,360 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
+<html>
 <head>
+  <title>Sawo</title>
+  <link rel="stylesheet" type="text/css" href="css/typography.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
+	<!-- slick-theme.css for the default styling -->
+	<link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Wyliffe Sawo</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+	<link rel="stylesheet" type="text/css" href="css/progress.css">
+	<link rel="stylesheet" type="text/css" href="css/masonry-gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-
-<body id="top">
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
-        </div>
-
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                <!-- <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li> -->
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-            </ul>
-        </nav>
-
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-   <!-- home
-   ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Hello There</h3>
-                <h6> I've Been Waiting For You</h6>
-                <h1>
-                    I am Wycliffe Sawo. <br>
-                    A Graphic &amp; Web Designer<br>
-                    Based Off Somewhere.
-                </h1>
-
-                <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
-                        Latest Projects
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
-                    </a>
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li>
-                <a href="www.github.com/Saworieza" target="_blank"><i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
-            </li>
-            <li>
-                <a href="www.twitter.com/campus_ke" target="_blank"><i class="im im-twitter" aria-hidden="true"></i><span>Twiter</span></a>
-            </li>
-            <li>
-                <a href="www.instagram.com/campus_ke" target="_blank"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <!-- <li>
-                <a href="#"><i class="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li> -->
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-        
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
-        <div class="row about-content">
-
-            <div class="col-six tab-full left">
-                <h3>Hola!</h3>
-
-                <p>I'm a visual designer, art director, and creative leader that likes to make things on (and off) the internet while crafting digital experiences through thoughtful strategy &amp; execution. </p>
-                <p>I do freelance work as a Creative Web &amp; Graphic Designer. I also Design and run a great <a href="www.issuu.com/campusmagke" target="_blank"><b>Campus Magazine</b></a> on the side</p>
-
-                <p>
-                I believe in user-centric design 🤓, that only psychopaths put milk in the 🥣  before cereal, and the oxford comma📓. 	
-                </p>
-                <p>
-              	I love to work on projects that are shaped in a very intentional way. That mould, think &amp; create a feeling of excitement for my clients.
-                </p>
-            </div>
-
-            <div class="col-six tab-full right">
-                <h3>I've Got Some skills.</h3>
-
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5 &amp; CSS</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>Javascript</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent80"><span>80%</span></div>
-                    <strong>Photoshop, After-Effects, In-Design</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>   
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>E-Commerce</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent40"><span>40%</span></div>
-                    <strong>React JS</strong>
-                    </li>   
-                </ul>
-            </div>
-
-        </div> <!-- end about-content -->
-
-        <div class="row about-content about-content--buttons">
-
-            <div class="col-six tab-full left">
-                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div class="col-six tab-full right">
-                <a href="#0" class="btn full-width">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
-
-        <div class="row about-content about-content--timeline">
-
-            <div class="col-full text-center">
-                <h3>My Work Experience.</h3>
-            </div>
-
-            <div class="col-six tab-full left">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2015 - Present</p>
-                            <h3>Awesome Studio</h3>
-                            <h5>Lead Designer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2014 - June 2015</p>
-                            <h3>Super Cool Agency</h3>
-                            <h5>Front-end Developer</h5>
-                        </div>
-                        <div class="timeline__desc">	
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
-
-            <div class="col-six tab-full right">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2012 - June 2014</p>
-                            <h3>Great Design Studio</h3>
-                            <h5>Web Designer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <p class="timeline__timeframe">July 2011 - June 2012</p>
-                            <h3>Epic Design Agency</h3>
-                            <h5>Web Designer</h5>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end right -->
-
-        </div> <!-- end about-content timeline -->
-
-    </section> <!-- end about -->
-    
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>Portfolio</h3>
-                <h1>See My Latest Projects.</h1>
-                
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/portfolio/beetle.jpg" 
-                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                The Beetle
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/lighthouse.jpg" 
-                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lighthouse
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Salad
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/skaterboy.jpg"
-                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Skaterboy
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/minimalismo.jpg"
-                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Minimalismo
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div>
-        </div> <!-- end masonry -->
-    </section> <!-- end works -->
-
-
-
-    
-
-    <!-- blog
-    ================================================== -->
-    <section id="blog" class="s-blog target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h3>CampusMag Magazine</h3>
-                <h1>Latest From The Blog.</h1>
-                <p class="lead">I work as the creative director and lead designer for a well loved Campus Magazine that currently boasts a presence in 32 Kenyan Universities. Here is a sample of some of the designs I have done for the magazine.</p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/CampusMag/7.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                <img src="images/CampusMag/7.jpg" 
-                                     srcset="images/CampusMag/7.jpg 1x, images/CampusMag/7.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                The Beetle
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
-                                <img src="images/portfolio/lighthouse.jpg" 
-                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lighthouse
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/salad.jpg" 
-                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Salad
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/skaterboy.jpg"
-                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Skaterboy
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/minimalismo.jpg"
-                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Minimalismo
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end s-blog -->
-
-
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="stats" class="s-stats">
-        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
-
-            <div class="col-block stats__col ">
-                <div class="stats__count">
-                    128
-                </div>
-                <h4>Awards Received</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    1500
-                </div>
-                <h4>Cups of Coffee</h4>
-            </div>
-            <div class="col-block stats__col stats__col--highlight">
-                <div class="stats__upsign">
-                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-                <div class="stats__count">
-                    110
-                </div>
-                <h4>Projects Completed</h4>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">
-                    101
-                </div>
-                <h4>Happy Clients</h4> 
-            </div>
-
-        </div>
-    </section> <!-- end s-stats -->
-
-
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h3>Contact</h3>
-                <h1>Say Hello.</h1>
-                
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
-            </div>
-        </div>
-
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Give Me a Call Instead.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-                        
-            </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Phone</h4>
-                <p>Phone: (+254) 703 597 595<br>
-                Mobile: (+63) 555 0100
-                </p>
-
-                <h4 class="h06">Email</h4>
-                <p>saworieza@gmail.com
-                </p>
-
-                <h4 class="h06">Address</h4>
-                <p>
-                Tumaini Building<br>
-                Ongata Rongai<br>
-                </p>
-            </div>
-
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
+<body class="container">
+	<div class="cv-wrapper">
+		<header id="cvHeader" class="cv-logo-in">
+			<div class="cv-head-inner cv-container">
+				<div class="cv-container-sm">
+					<div class="cv-head-row">
+						<div id="cvHeadCol1" class="cv-head-col text-left">
+							<a id="cvLogo" class="cv-logo" href="/">
+								<img src="images/logo.svg" alt="FingerPrint">
+								<span>.Designer.Developer</span>
+							</a>
+						</div>
+						<div id="cvHeadCol3" class="cv-head-col text-right"></div>
+					</div>
+				</div>
+			</div>
+			<nav></nav>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-4">
+					<div class="sidebar cv-card">
+						<aside class="widget clearfix cv-widget-card">
+							<div class="card">
+							  <img class="card-img-top" src="images/me3.png" alt="Card image cap">
+							  <div class="card-body">
+							    <h5 class="card-title text-center text-upper">Wycliffe Sawo</h5>
+							    <p class="text-muted">Creative Designer/ Developer</p>
+							    <ul class="card-text text-center">
+							    	<li><a href=""><i class="fas fa-camera"></i></a></li>
+							    	<li><a href=""><i class="fas fa-sms"></i></a></li>
+							    	<li><a href=""><i class="fas fa-camera"></i></a></li>
+							    </ul>
+							   
+							  </div>
+							</div>
+						</aside>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div id="biodata" class="biodata main-section">
+						<section class="introduction">
+							<h2 class="title-lg text-upper">Hello, I'm Sawo!</h2>
+							<p>I am a talented Freelance Graphic Designer and Web Developer. I design websites, logos, brochures, banners, book covers, magazines and everything related to design and inspiration. <br>
+							I am also skilled at converting images &amp; concepts into highly interactive products and seeing and fulfilling the business needs of clients <br>
+							I previously founded and ran a publishing company focusing on universities in Kenya called <a href="https://www.issuu.com/campusmagke" style="color: red;" target="_blank">CampusMag</a> with a reach of over 30 Universities and over 100,000 students monthly.<br>
+							</p>
+						</section>
+						<section class="row">
+							<div class="col-sm-6">
+								<h3 class="title-thin text-muted">personal information</h3>
+								<dl class="dl-horizontal clear-mrg">
+									<dt class="text-upper dt">Full Name</dt>
+									<dd>Wycliffe Omondi Sawo</dd>
+									<dt class="text-upper dt">D.O.B</dt>
+									<dd>07 August 199x</dd>
+									<dt class="text-upper dt">Address</dt>
+									<dd>241, Homa-Bay</dd>
+									<dt class="text-upper dt">Email</dt>
+									<dd>saworieza@gmail.com</dd>
+									<dt class="text-upper dt">Phone</dt>
+									<dd>+254 703 597 595</dd>
+									<dt class="text-upper dt">Freelance</dt>
+									<dd>Available</dd>
+								</dl>
+							</div>
+							<div class="col-sm-6">
+								<h3 class="title-thin text-muted">languages</h3>
+								<div class="progress-bullets cv-animated" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="10">
+								<strong class="progress-title">English</strong>
+									<span class="progress-bar">
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet"></span>
+									</span>
+									<span class="progress-text text-muted">fluent</span>
+								</div>
+								<div class="progress-bullets cv-animated" role="progressbar" aria-valuenow="97" aria-valuemin="0" aria-valuemax="10">
+								<strong class="progress-title">Swahili</strong>
+									<span class="progress-bar">
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet fill"></span>
+										<span class="bullet"></span>
+										<span class="bullet"></span>
+									</span>
+									<span class="progress-text text-muted">native</span>
+								</div>
+							</div>
+						</section>
+						<section class="row">
+							<div class="col-sm-6">
+								<h3 class="title-thin text-muted">proffesional skills</h3>
+								<div class="progress-line cv-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+									<strong class="progress-title">Ruby / Ruby on Rails</strong>
+									<div class="progress-bar" data-text="60%" data-value="0.6" style="position: relative;">
+										<svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+											<path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path>
+											<path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 40;"></path>
+										</svg>
+										<div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">60%</div>
+									</div>
+								</div>
+
+								<div class="progress-line cv-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+									<strong class="progress-title">HTML, CSS, SCSS, HAML</strong>
+									<div class="progress-bar" data-text="95%" data-value="0.95" style="position: relative;">
+										<svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+											<path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path>
+											<path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 5;"></path>
+										</svg>
+										<div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">95%</div>
+									</div>
+								</div>
+
+								<div class="progress-line cv-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+									<strong class="progress-title">JS, React, Vue</strong>
+									<div class="progress-bar" data-text="50%" data-value="0.5" style="position: relative;">
+										<svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+											<path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path>
+											<path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 50;"></path>
+										</svg>
+										<div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">50%</div>
+									</div>
+								</div>
+
+								<div class="progress-line cv-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+									<strong class="progress-title">Flutter</strong>
+									<div class="progress-bar" data-text="35%" data-value="0.35" style="position: relative;">
+										<svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+											<path d="M 0,2 L 100,2" stroke="rgba(0,0,0,0.07)" stroke-width="4" fill-opacity="0"></path>
+											<path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 65;"></path>
+										</svg>
+										<div class="progress-text" style="top: -25px; right: 0px; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">35%</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6 clear-mrg">
+								<h3 class="title-thin text-muted">additional skills</h3>
+								<div class="row">
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="95%" data-value="0.95" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 14.9247;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">95%</div>
+											</div>
+											<strong class="progress-title"> Scribus </strong>
+										</div>
+									</div>
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="40%" data-value="0.4" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 144;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">40%</div>
+											</div>
+											<strong class="progress-title">Photoshop </strong>
+										</div>
+									</div>
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="40%" data-value="0.4" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 144;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">40%</div>
+											</div>
+											<strong class="progress-title">Python</strong>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="95%" data-value="0.95" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 70;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">75%</div>
+											</div>
+											<strong class="progress-title"> UX Design</strong>
+										</div>
+									</div>
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="40%" data-value="0.4" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset:100;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">65%</div>
+											</div>
+											<strong class="progress-title">UI Design </strong>
+										</div>
+									</div>
+									<div class="col-sm-4 text-center">
+										<div class="progress-chart crt-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+											<div class="progress-bar" data-text="40%" data-value="0.4" style="position: relative;">
+												<svg viewBox="0 0 100 100" style="display: block; width: 100%;">
+													<path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#c0e3e7" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 44;"></path>
+												</svg>
+												<div class="progress-text" style="top: 50%; left: 50%; color: inherit; position: absolute; margin: 0px; padding: 0px; transform: translate(-50%, -50%);">80%</div>
+											</div>
+											<strong class="progress-title">Marketing</strong>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="row" style="border-bottom: none;">
+							<div class="col-sm-6">
+								<h3 class="title-thin text-muted">soft skills</h3>
+								<ul class="styled-list clear-mrg">
+									<li>Autodidact</li>
+									<li>Customer oriented</li>
+									<li>Handling Multi Tasks</li>
+									<li>Creative Thinking</li>
+									<li>Self Motivated</li>
+									<li>Managerial Skills</li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<h3 class="title-thin text-muted">interests</h3>
+								<ul class="styled-list clear-mrg">
+									<li>Technology</li>
+									<li>Training &amp; Research</li><br>
+									<li>APIs</li><br>
+									<li>Sales &amp; Marketing</li><br>
+									<li>Mobile App Development</li><br>
+									<li>UX &amp; Design</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+
+					<div id="portfolio" class="portfolio main-section">
+						<section class="introduction">
+							<h2 class="title-lg text-upper">Portfolio</h2>
+							<div class="container">
         <div class="row">
-            <div class="col-full">
-
-                <div class="footer-logo">
-                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
-                </div>
-
-                <ul class="footer-social">
-                    <li><a href="www.github.com/Saworieza">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>GIthub</span>
-                    </a></li>
-                    <li><a href="www.twitter.com/campus_ke">
-                        <i class="im im-twitter" aria-hidden="true"></i>
-                        <span>Twitter</span>
-                    </a></li>
-                    <li><a href="www.instagram.com/campus_ke">
-                        <i class="im im-instagram" aria-hidden="true"></i>
-                        <span>Instagram</span>
-                    </a></li>
-                    <!-- <li><a href="#0">
-                        <i class="im im-behance" aria-hidden="true"></i>
-                        <span>Behance</span>
-                    </a></li> -->
-                </ul>
-                    
-            </div>
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 class="gallery-title">Gallery</h1>
         </div>
 
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>&copy; Copyright Sawo <script>document.write(Date().split` `[3])</script> </span> 
-                    <span> Read My Magazine <a href="http://www.campusmag.co.ke/" target="_blank">Campus Mag</a></span>	
-                </div>
-
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
+        <div align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
+            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
+            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
         </div>
-
-    </div><!-- end photoSwipe background -->
-
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
+        <br/>
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+            </div>
+        </div>
+						</section>
+					</div>
+
+					<div id="experience" class="experience main-section">
+						<section class="introduction">
+							<h2 class="title-lg text-upper">Work Experience</h2>
+							<!-- work experience timeline here -->
+							<h2 class="title-lg text-upper">Education</h2>
+							<!-- Education timeline here -->
+						</section>
+					</div>
+
+				</div>	
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
 </body>
-
 </html>

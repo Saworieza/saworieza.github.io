@@ -1,0 +1,32 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, pre, section, summary {
+  display: block;
+}
+::selection {
+  background-color: #c0e3e7;
+  text-shadow: none;
+}
+hr, th, td, blockquote, .brd-btm, .post-tags a, .reference-box, .cv-head-inner, .cv-paper, .cv-paper-layers:after, .cv-paper-layers:before, #comments .comment-list, #comments .comment-body, .cv-nav-type1 .cv-nav-cont, .tabs .tabs-menu, .tabs-vertical:before, .page-category .post-footer, .search-for, .widget_meta > ul, .widget_pages > ul, .widget_archive > ul, .widget_nav_menu .menu, .widget_categories > ul, .widget_recent_entries > ul, .widget_recent_comments > ul, .widget_meta li, .widget_pages li, .widget_archive li, .widget_nav_menu li, .widget_categories li, .widget_recent_entries li, .widget_recent_comments li, .widget_calendar caption, .widget_tag_cloud a, .post-category-comment a, .apcal_modal, .apcal_btn#next1, .apcal_btn#back {
+  border-color: #e1e1e1;
+}
+body, blockquote.quote-top:before, blockquote.quote-side:before, .form-item, .cv-logo, .page-numbers:hover, .page-numbers.current, .tabs .tabs-menu a, .cv-nav a, .cv-tooltip, #cvMainNav .sub-menu a, #cvMainNav > ul > li > a:hover, #cvMainNav > ul > li.current-menu-item > a, #cvMainNav > ul > li.current-menu-parent > a, #cvMainNavSm li > a:hover, #cvMainNavSm li.current-menu-item a, #cvMainNavSm li.current-menu-parent a, .accordion li.active .accordion-header, .accordion-header:hover, .togglebox li.active .togglebox-header, .togglebox-header:hover, .pf-filter button, .search-title span, .widget_archive a, .widget_categories a {
+  color: #010101;
+}
+a {
+  color: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  overflow-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  transition: all .2s ease-out;
+}
+#cvOverlay, .slick-slider, a, button, input, select, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+img {
+  border: 0;
+  display: inline-block;
+}

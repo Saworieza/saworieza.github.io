@@ -1,0 +1,32 @@
+@media (min-width: 992px){
+	.cv-side-box-on.cv-nav-on .cv-container {
+	  max-width: 1196px;
+	}
+}
+@media (min-width: 992px){
+	.cv-head-inner {
+    border: none;
+    background: 0 0!important;
+	}
+}
+@media (min-width: 992px) and (min-width: 1200px){
+	.cv-side-box-on .cv-container-sm {
+	  margin-left: 330px;
+	}
+}
+@media (min-width: 992px){
+	.cv-nav-on .cv-container-sm {
+    margin-right: 56px;
+	}
+}
+@media (min-width: 992px){
+	.cv-container-sm {
+    padding-left: 0;
+    padding-right: 0;
+	}
+}
+@media (min-width: 1006px){
+	.cv-sidebar-on .cv-head-col {
+    height: 63px;
+	}
+}
