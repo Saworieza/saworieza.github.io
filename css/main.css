@@ -36,6 +36,9 @@ ul li{
 	padding-left: .4rem;
 
 }
+figure img{
+	max-width: 100%;
+}
 .cv-wrapper{
 	position: relative;
 	padding: 0 20px;
@@ -99,11 +102,9 @@ aside{
 	height: 3.94rem;
 }
 .card{
-	margin-bottom: 30px;
-  box-shadow: -4px 7px 15px 1px rgb(0 0 0 / 20%);
 	margin: auto;
+  box-shadow: -4px 7px 15px 1px rgb(0 0 0 / 20%);
 	border-radius: 0;
-	border-radius: none !important;
   background-color: #c0e3e7;
   text-align: center;
   width: 290px;

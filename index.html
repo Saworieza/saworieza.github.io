@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Sawo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/typography.css">
   <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css"/>
 	<!-- slick-theme.css for the default styling -->
@@ -16,8 +17,12 @@
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/progress.css">
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
 	<link rel="stylesheet" type="text/css" href="css/masonry-gallery.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
 </head>
 <body class="container">
 	<div class="cv-wrapper">
@@ -269,73 +274,24 @@
 					</div>
 
 					<div id="portfolio" class="portfolio main-section">
-						<section class="introduction">
-							<h2 class="title-lg text-upper">Portfolio</h2>
-							<div class="container">
-        <div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">Gallery</h1>
-        </div>
-
-        <div align="center">
-            <button class="btn btn-default filter-button" data-filter="all">All</button>
-            <button class="btn btn-default filter-button" data-filter="hdpe">HDPE Pipes</button>
-            <button class="btn btn-default filter-button" data-filter="sprinkle">Sprinkle Pipes</button>
-            <button class="btn btn-default filter-button" data-filter="spray">Spray Nozzle</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
-        </div>
-        <br/>
-
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="http://fakeimg.pl/365x365/" class="img-responsive">
-            </div>
-        </div>
+						<section>
+							<h3 class="title-thin text-muted">Portfolio</h3>
+							<base href="images">
+							<div id="carousel">
+							  <figure id="spinner">
+							    <img src="images/portfolio/enjiwav2.png" alt>
+							    <img src="images/portfolio/matweet.png" alt>
+							    <img src="images/portfolio/enjiwa.png" alt>
+							    <img src="images/portfolio/neymar.png" alt>
+							    <img src="images/portfolio/neymar2.png" alt>
+							    <img src="images/portfolio/neymar.png" alt>
+							    <img src="images/portfolio/neymar.png" alt>
+							    <img src="images/portfolio/neymar.png" alt>
+							  </figure>
+							</div>
+							<span class="ss-icon left-carrot" onclick="galleryspin('-')">&lt;</span>
+							<span class="ss-icon right-carrot" onclick="galleryspin('')">&gt;</span>
+							<!-- partial -->
 						</section>
 					</div>
 
@@ -356,5 +312,6 @@
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/slick-1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
